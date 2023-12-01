@@ -1,4 +1,4 @@
-function Navbar() {
+function Navbar(props) {
   return (
     <div>
       <ul>
@@ -10,6 +10,9 @@ function Navbar() {
         </li>
         <li>
           <a href="/">Contact</a>
+        </li>
+        <li>
+          <a href="/">{props.title}</a>
         </li>
       </ul>
     </div>
