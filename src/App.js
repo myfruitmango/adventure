@@ -1,13 +1,13 @@
-import "./App.css";
+import React from "react";
+// import { Counter } from "./features/counter/Counter";
+// <Counter />
 
-function App() {
+const App = () => {
   return (
     <div>
-      <section>
-        <h1>Hello Welcome To Jungler</h1>
-      </section>
+      <h1>Hello World!</h1>
     </div>
   );
-}
+};
 
 export default App;
